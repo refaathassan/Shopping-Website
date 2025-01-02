@@ -1,0 +1,27 @@
+.jumbotron{
+    background-image: url("../img/shope.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.nav-item:hover{
+    background-color: #bbbbbb;
+}
+
+@media(max-width: 900px) {
+    .navbar{
+        background-color: lightblue;
+    }
+    
+}
+@media(max-width: 600px) {
+    .navbar{
+        background-color: lightgreen;
+    }
+    
+}
+@media(max-width: 400px) {
+    .navbar{
+        background-color: lightsalmon;
+    }
+    
+}
